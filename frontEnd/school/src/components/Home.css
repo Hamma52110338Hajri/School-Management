@@ -1,0 +1,79 @@
+/* Home.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .classroom {
+    background-color: #ffffff;
+    background-image: url('  https://t3.ftcdn.net/jpg/05/83/04/78/360_F_583047863_jAAqybayLoTNp3WDyeunppcvN2JVEdUX.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .classroom {
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+  }
+  
+  .teachers,
+  .students {
+    margin-top: 20px;
+  }
+  
+  .teacher-list,
+  .student-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .teacher-item,
+  .student-item {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .teacher-photo,
+  .student-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .teacher-list p,
+  .student-list p {
+    font-weight: bold;
+  }
+  
+  .teacher-list div,
+  .student-list div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
